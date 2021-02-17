@@ -277,7 +277,7 @@ const animationTimeline = () => {
 };
 
 // Import the data to customize and insert them into page
-const fetchData = () => {
+/*const fetchData = () => {
   fetch("customize.json")
     .then(data => data.json())
     .then(data => {
@@ -294,6 +294,7 @@ const fetchData = () => {
       });
     });
 };
+*/
 
 // Run fetch and animation in sequence
 const resolveFetch = () => {
